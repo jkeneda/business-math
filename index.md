@@ -1,7 +1,6 @@
 ---
 layout: default
 use_math: true
-usemathjax: true
 ---
 
 ***bold***
