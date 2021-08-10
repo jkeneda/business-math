@@ -1,3 +1,6 @@
+---
+title: [business-math]
+---
 
 ## Hello!
 ### Does this still take over the title?
