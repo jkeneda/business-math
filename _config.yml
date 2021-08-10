@@ -1,6 +1,5 @@
 theme: jekyll-theme-cayman
 
-markdown: kramdown
 math_engine: mathjax
 
 title: [business-math]
