@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+
+title: [distributions]
+description: [Visualization tool for some discrete probability distributions (aka dice-rolling in dungeons & dragons)]
