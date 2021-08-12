@@ -106,3 +106,11 @@ $$\{113, 88, 71\} = \{71, 88, 113\} = \{71, 71, 88, 88, 88, 113\}$$
 
 Any of these would be valid answers to "What's the range of the relation above?", but the first one is the most obvious/simple to write, so we usually just go with that one.
 
+Now we're ready to discuss the most useful type of relations: functions.
+
+## Functions
+
+A function is a special type of relation.  So it still has a domain (set of inputs) and a range (set of outputs).  But it follows one additional rule: every input has *exactly one* output.  Functions are very predictable - one thing goes in, and one thing comes out.
+
+function
+: A **function** is a relation such that every input...
