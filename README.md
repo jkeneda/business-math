@@ -13,3 +13,5 @@ Unless you're trying to contribute your own notes to the project, you probably j
 2. Add more content pages
 
 3. Add graphing abilities from chartjs
+
+4. Clean up the MathJax-config in each folder and auto-number examples and stuff

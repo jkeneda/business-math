@@ -2,7 +2,6 @@
 layout: default
 title: [1324 - business algebra]
 ---
-$$\usepackage{amsthm}$$
 
 Relations and Functions
 ===
