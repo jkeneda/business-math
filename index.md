@@ -3,8 +3,13 @@ layout: default
 title: [business-math]
 ---
 
-## Hello!
+Hello!
+===
 
-Are you looking for [Math 1324](1324/1324-index.md) or Math 1325?
+Are you looking for [Math 1324](1324/00-index.html) or Math 1325?
 
-$$\sum_{i=1}^n i^2$$
+<div id="text"></div>
+ 
+<script>
+document.getElementById("text").innerHTML = "Text added by JavaScript code";
+</script>
