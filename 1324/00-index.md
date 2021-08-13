@@ -8,6 +8,7 @@ Welcome to Business Algebra!
 
 ### Table of Contents
 
-1. [Relations and Functions](01-functions.html)
+1. - [Relations and Functions](01-functions-part-1.html)
+    - [Functions Defined by Algebraic Expressions](01-functions-part-2.html)
 
-2. More to come later...
+2. To be continued...

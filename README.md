@@ -15,3 +15,5 @@ Unless you're trying to contribute your own notes to the project, you probably j
 3. Add graphing abilities from chartjs
 
 4. Clean up the MathJax-config in each folder and auto-number examples and stuff
+
+5. Fix spoiler nonsense at the end of functions section
