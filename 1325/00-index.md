@@ -8,6 +8,6 @@ Welcome to Business Calculus!
 
 ### Table of Contents
 
-1. To do:
+1. [Limits](01-limits.html)
 
-2. More to come later...
+2. ...
