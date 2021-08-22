@@ -48,5 +48,8 @@ Graph of $$y = x$$, $$y = \frac{1}{20} e^x$$, and $$y = \sin{x}$$
 <script src="../Graphing Tools/chart.js">
 </script>
 
+<script src="../Graphing Tools/chartjs-plugin-functions.js">
+</script>
+
 <script src="02-graphs-of-functions.js">// Creates local chart and handles events
 </script>

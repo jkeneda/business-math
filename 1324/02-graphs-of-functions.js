@@ -1,8 +1,6 @@
-// Thanks to tektiv at https://stackoverflow.com/questions/40086575/chart-js-draw-mathematical-function for the initial function plugin
-
 var ctx = document.getElementById("myChart");
 var data = {
-	labels: [-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+	labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     datasets: [{
         label: "f(x) = x",
         function: function(x) { return x },
@@ -25,21 +23,6 @@ var data = {
         fill: false
     }]
 };
-
-Chart.register({
-    id: 'function-maker',
-    beforeInit: function(chart) {
-        var data = chart.config.data;
-        for (var i = 0; i < data.datasets.length; i++) {
-            for (var j = 0; j < data.labels.length; j++) {
-            	var fct = data.datasets[i].function,
-                	x = data.labels[j],
-                	y = fct(x);
-                data.datasets[i].data.push(y);
-            }
-        }
-    }
-});
 
 var myLineChart = new Chart(ctx, {
     type: 'line',
