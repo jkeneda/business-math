@@ -38,7 +38,7 @@ where the input is thought of as "$$x$$ yards", and the output is measured in sq
 
 Note, by the way, that one acre is 4,840 square yards.  So if we want the output to be measured in acres instead, all we have to do is take our original outputs and convert them to acres by multiplying by the conversion rate $$\frac{1 \text{ acre}}{4,840 \text{ square yards}}$$:
 
-$$A^*(x) = x^2 \text{ square yards} * \frac{1 \text{ acre}}{4,840 \text{ square yards}} = \frac{x^2}{4,840} \text{ acres}.$$
+$$\require{cancel}A^*(x) = x^2 \cancel{\text{ square yards}} * \frac{1 \text{ acre}}{4,840 \cancel{\text{ square yards}}} = \frac{x^2}{4,840} \text{ acres}.$$
 
 So the functions $$A$$ and $$A^*$$ will take any side length $$x$$ (in yards) and produce the corresponding pen area (in square yards and acres, respectively).
 
@@ -46,3 +46,6 @@ So the functions $$A$$ and $$A^*$$ will take any side length $$x$$ (in yards) an
 
 To elaborate on the notation in the last example, let's look at the ingredients that we'll be using to define functions by formulas/equations.
 
+[Continue to Next Section](02-graphs-of-functions.html)
+
+[Return to Table of Contents](00-index.html)

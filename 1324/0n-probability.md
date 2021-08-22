@@ -24,7 +24,9 @@ In the game of Yahtzee, you roll 5 dice and try to achieve certain outcomes from
 </div>
 <div>
     <p id="log">
-         Click the roll button to sample (i.e. "try the experiment once") from the distribution.  Your roll will be displayed here.
+    </p>
+    <p>
+        Click the roll button to sample (i.e. "try the experiment once") from the distribution.  You can change the distribution (e.g. 2d6 means "roll two 6-sided dice", 10d10 means "roll ten 10-sided dice").  Your roll will be displayed above.
     </p>
 </div>
 

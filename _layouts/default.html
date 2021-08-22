@@ -40,14 +40,26 @@
   </body>
 </html>
 
+<!-- The below stuff is added for the math typesetting. -->
+
+<!-- For autonumbering, both for root folder and its subfolders
 <script src="/MathJax-config.js" async>
 </script>
-
 <script src="../MathJax-config.js" async>
-</script> <!-- for sites in a subfolder-->
-
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+-->
 
-<!-- https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML is supposedly a better source than
-   https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML for MathJax, but I'm not sure if it'll load correctly if it replaces the above...-->
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> <!-- https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML is recommended, but we use
+  https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML because it seems to work better locally -->
+
+<!-- The following loads TikZJax.  It works by putting the following in the body
+  <script type="text/tikz">
+  \begin{tikzpicture}
+    \draw (0,0) circle (1in);
+  \end{tikzpicture}
+</script>
+but we're waiting on \usetikzlibrary or \usepackage support. -->
+
+<link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
+<script src="https://tikzjax.com/v1/tikzjax.js"></script> -->
