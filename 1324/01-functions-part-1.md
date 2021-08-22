@@ -209,6 +209,8 @@ The output could be 1, 2, 3, or 4.  This violates the definition of a function.
 </details>
 <br>
 
+---
+
 [Continue to Next Section](01-functions-part-2.html)
 
 [Return to Table of Contents](00-index.html)

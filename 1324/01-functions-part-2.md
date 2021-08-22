@@ -46,6 +46,8 @@ So the functions $$A$$ and $$A^*$$ will take any side length $$x$$ (in yards) an
 
 To elaborate on the notation in the last example, let's look at the ingredients that we'll be using to define functions by formulas/equations.
 
+---
+
 [Continue to Next Section](02-graphs-of-functions.html)
 
 [Return to Table of Contents](00-index.html)

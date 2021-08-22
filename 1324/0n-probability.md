@@ -30,6 +30,12 @@ In the game of Yahtzee, you roll 5 dice and try to achieve certain outcomes from
     </p>
 </div>
 
+---
+
+[Continue to Next Section]
+
+[Return to Table of Contents](00-index.html)
+
 <script src="../Graphing Tools/chart.js">
 </script>
 
