@@ -1,3 +1,5 @@
+// Requires chart.js then chartjs-plugin-functions.js to work
+
 var ctx = document.getElementById("myChart");
 var data = {
 	labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
