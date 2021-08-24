@@ -72,18 +72,14 @@ Thankfully, [desmos](https://www.desmos.com) embedding is the easiest to use.  P
 To add a desmos plot, just copy and paste the code in this box into your .md file.  Make sure to replace the desmos link below with the link to your (saved) desmos plot.  You can modify the iframe if you want to resize things.
 
 ``` html
-<iframe src="https://www.desmos.com/calculator/fs3lx8gptb" style="min-height:300px" width="100%"></iframe>
-<script>
-  // When using an embedded desmos plot, the page normally displays an alert when the user tries to leave.  This script disables that alert.
-  window.onbeforeunload = null;
-</script>
+<iframe src="https://www.desmos.com/calculator/fs3lx8gptb" style="min-height:400px" width="100%">
+</iframe>
 ```
 
-<iframe src="https://www.desmos.com/calculator/fs3lx8gptb" style="min-height:300px" width="100%"></iframe>
-<script>
-  // When using an embedded desmos plot, the page normally displays an alert when the user tries to leave.  This script disables that alert.
-  window.onbeforeunload = null;
-</script>
+<iframe src="https://www.desmos.com/calculator/fs3lx8gptb" style="min-height:400px" width="100%">
+</iframe>
+
+Note: I noticed that if you interact with a desmos plot and then try to leave the page, it'll ask you to confirm that you want to leave (because desmos is worried that you haven't saved the graph or something).  I think we can disable the confirmation message, but we'll have to mess with it a bit.[^confirm]
 
 ---
 
@@ -166,8 +162,6 @@ About the code: the html here just puts the space for the graph on the page - it
 
 ---
 
-[^kramdown]: You can also check out the [kramdown documentation](https://kramdown.gettalong.org/syntax.html), but I wouldn't recommend it unless you're looking for something specific.
-
 To Do:
 ===
 
@@ -202,6 +196,10 @@ Yes, each input corresponds to just a single output.
 ---
 
 [Return to main page](../index.html)
+
+[^kramdown]: You can also check out the [kramdown documentation](https://kramdown.gettalong.org/syntax.html), but I wouldn't recommend it unless you're looking for something specific.
+
+[^confirm]: I tried running the following code once, but that doesn't quite work, because it's only loaded when the page loads and then desmos overwrites it.  But we could maybe run the following javascript on a loop, I think: `window.onbeforeunload = null;`  Might need to do the same for `window.close`.
 
 <script src="chart.js">
 </script>

@@ -2,11 +2,11 @@
 Welcome to Dr. K's Business Math Notes on Github
 ---
 
-### Note to students
+### Note to Students
 
 Unless you're trying to contribute your own notes or code to the project, you probably just want to go to the [main site](https://jkeneda.github.io/business-math/).
 
-### Project to do list:
+### Project To Do List:
 
 1. Generalize the function graphing plugin
 
@@ -21,6 +21,8 @@ Unless you're trying to contribute your own notes or code to the project, you pr
 1. (Wait for package/library support in TikZJax)
 
 1. Fix any broken links from missing adjacent pages (currently linked as tbd)
+
+1. Fix desmos unloading issue (see footnotes of examples page)
 
 #### Notable Dependencies
 This project uses [Chart.js](https://www.chartjs.org/) and [TikZJax](https://github.com/kisonecat/tikzjax) for its graphing, and it uses the [Cayman](https://github.com/pages-themes/cayman) Jekyll theme for GitHub Pages.  It'll probably start using jquery for some better interactivity soon.

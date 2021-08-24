@@ -44,10 +44,6 @@ Graph of $$y = x$$, $$y = \frac{1}{20} e^x$$, and $$y = \sin{x}$$ (above)
 Lastly, desmos embedding seems to work just fine, and it still supports desmos's animation feature:
 
 <iframe src="https://www.desmos.com/calculator/fs3lx8gptb" style="min-height:300px" width="100%"></iframe>
-<script>
-  // When using an embedded Desmos plot, the page normally displays an alert when the user tries to leave.  This script disables that alert.
-  window.onbeforeunload = null;
-</script>
 
 ---
 
