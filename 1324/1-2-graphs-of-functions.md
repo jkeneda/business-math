@@ -49,7 +49,9 @@ Lastly, Desmos embedding seems to work just fine:
 
 ---
 
-[Continue to Next Section]
+[Return to Previous Section](1-1-b-function-definitions.html)
+
+[Continue to Next Section](1-3-quadratic-functions.html)
 
 [Return to Table of Contents](00-index.html)
 
@@ -59,5 +61,5 @@ Lastly, Desmos embedding seems to work just fine:
 <script src="../Graphing Tools/chartjs-plugin-functions.js">
 </script>
 
-<script src="02-graphs-of-functions.js">// Creates local chart and handles events
+<script src="1-2-graphs-of-functions.js">// Creates local chart and handles events
 </script>

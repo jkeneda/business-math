@@ -37,7 +37,7 @@ Or link to [google](https://www.google.com/).
 LaTeX
 ===
 
-LaTeX is also supported in the .md files by surrounding your TeX with double dollar signs.  You can put a line break before and after the \$\$ to get LaTeX's display math mode, otherwise you get inline math.
+LaTeX is also supported in the .md files by surrounding your TeX with double dollar signs.  You can put a line break before and after the \$\$ to get LaTeX's display math mode.  Otherwise, you get inline math.
 
 ```
 Let $$f(x) = e^x - \log{x} + \sin (x^3)$$.
@@ -110,7 +110,7 @@ Or we can do clean, general graphs with [TikZJax](https://github.com/kisonecat/t
   \end{tikzpicture}
 </script>
 
-Unfortunately, the axis/function labels in TikZJax aren't rendering correctly if they involve LaTeX/math.  The letters are crowded unless you space them out manually (note the \\, in the LaTeX for the labels below - that's just there to space out the $$f(x)$$, $$g(x)$$, and $$h(x)$$ correctly).  Plain text should be fine, though.  This seems to be a known issue with TikZJax.
+Unfortunately, the axis/function labels in TikZJax aren't always rendering correctly if they involve LaTeX/math.  The letters are crowded unless you space them out manually (note the `\,` in the LaTeX for the labels below - that's just there to space out the $$f(x)$$, $$g(x)$$, and $$h(x)$$ correctly).  Plain text labels should be fine, though.  This seems to be a known issue with TikZJax.
 
 TikZJax also doesn't support \usetikzlibrary or \usepackage, so it's somewhat limited.
 

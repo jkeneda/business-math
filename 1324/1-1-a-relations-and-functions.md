@@ -211,6 +211,6 @@ The output could be 1, 2, 3, or 4.  This violates the definition of a function.
 
 ---
 
-[Continue to Next Section](01-functions-part-2.html)
+[Continue to Next Section](1-1-b-function-definitions.html)
 
 [Return to Table of Contents](00-index.html)

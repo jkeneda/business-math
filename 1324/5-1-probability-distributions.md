@@ -3,7 +3,7 @@ layout: default
 title: [1324 - business algebra]
 ---
 
-Probability
+Probability Distributions
 ===
 
 If we're playing a game with dice, it's easy to understand what to expect from the roll of a single die - it'll roll a 1, 2, 3, 4, 5, or 6, and all of those have an equal chance of happening.  But to understand more complicated situations, we'll need more complicated models.  The math used to model *randomness* or *uncertainty* is called Probability Theory.
@@ -32,7 +32,9 @@ In the game of Yahtzee, you roll 5 dice and try to achieve certain outcomes from
 
 ---
 
-[Continue to Next Section]
+[Return to Previous Section](tbd)
+
+[Continue to Next Section](tbd)
 
 [Return to Table of Contents](00-index.html)
 
@@ -42,5 +44,5 @@ In the game of Yahtzee, you roll 5 dice and try to achieve certain outcomes from
 <script src="../Graphing Tools/distributions.mjs"> // Functions for handling dice distributions
 </script>
 
-<script src="0n-probability.js">// Creates local chart and handles events
+<script src="5-1-probability-distributions.js">// Creates local chart and handles events
 </script>

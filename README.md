@@ -20,5 +20,7 @@ Unless you're trying to contribute your own notes or code to the project, you pr
 
 1. (Wait for package/library support in TikZJax)
 
+1. Fix any broken links from missing adjacent pages (currently linked as tbd)
+
 #### Notable Dependencies
 This project uses [Chart.js](https://www.chartjs.org/) and [TikZJax](https://github.com/kisonecat/tikzjax) for its graphing, and it uses the [Cayman](https://github.com/pages-themes/cayman) Jekyll theme for GitHub Pages.  It'll probably start using jquery for some better interactivity soon.

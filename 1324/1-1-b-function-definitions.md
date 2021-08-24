@@ -48,6 +48,8 @@ To elaborate on the notation in the last example, let's look at the ingredients 
 
 ---
 
-[Continue to Next Section](02-graphs-of-functions.html)
+[Return to Previous Section](1-1-a-relations-and-functions.html)
+
+[Continue to Next Section](1-2-graphs-of-functions.html)
 
 [Return to Table of Contents](00-index.html)
