@@ -8,7 +8,7 @@ Unless you're trying to contribute your own notes or code to the project, you pr
 
 ### Project to do list:
 
-1. Generalize the function graphing plugin past 02-graphs-of-functions.js
+1. Generalize the function graphing plugin
 
 1. Add questions/answers via jquery
 

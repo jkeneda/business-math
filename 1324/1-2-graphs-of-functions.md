@@ -6,6 +6,8 @@ title: [1324 - business algebra]
 Graphs of Functions
 ===
 
+This page hasn't fully been built yet.  It's just a demo of the different graphing/display techniques we can use on the site.  Note that all of this is happening in the students' browser - they don't have to download any software or sign in.  It's just a free blog format.
+
 For interactive or animated graphs, we can use Chart.js.  These graphs are nice because users can hover over the data points to get more information, but the equation labels aren't especially pretty.
 
 <div>
@@ -25,7 +27,7 @@ Or we can do clean, general graphs with TikZJax:
   \end{tikzpicture}
 </script>
 
-Unfortunately, the axis/function labels in TikZJax aren't rendering correctly if they involve LaTeX/math.  The letters are crowded unless you space them out manually.  Plain text should be fine, though.  This seems to be a known issue with TikZJax.
+We can label the functions with TikZ, although the labels get messy sometimes.
 
 <script type="text/tikz">
   \begin{tikzpicture}[domain=0:4] 
@@ -37,9 +39,9 @@ Unfortunately, the axis/function labels in TikZJax aren't rendering correctly if
     \draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$g\,\,(x)$};
   \end{tikzpicture}
 </script>
-Graph of $$y = x$$, $$y = \frac{1}{20} e^x$$, and $$y = \sin{x}$$
+Graph of $$y = x$$, $$y = \frac{1}{20} e^x$$, and $$y = \sin{x}$$ (above)
 
-Lastly, Desmos embedding seems to work just fine:
+Lastly, desmos embedding seems to work just fine, and it still supports desmos's animation feature:
 
 <iframe src="https://www.desmos.com/calculator/fs3lx8gptb" style="min-height:300px" width="100%"></iframe>
 <script>

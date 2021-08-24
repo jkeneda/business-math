@@ -1,8 +1,9 @@
 // Requires chart.js then chartjs-plugin-functions.js to work
+// Thanks to tektiv at https://stackoverflow.com/questions/40086575/chart-js-draw-mathematical-function for the original plugin idea and example below
 
 var ctx = document.getElementById("myChart");
 var data = {
-	labels: [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5],
+	labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     datasets: [{
         label: "f(x) = x",
         function: function(x) { return x },
