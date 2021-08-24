@@ -11,16 +11,16 @@ So far, we've been describing functions by just making a large list of their inp
 #### Example 1
 Suppose a farmer wants to build a square pen.  They're interested in knowing how many acres the pen will enclose based on the length of its sides.  One way to answer that question is by making a table of possible side lengths and the corresponding pen area:
 
-|-----|-----|
+|-------------|-----------------------------|
 | Side Length | Pen Area |
-|:--------:|:-------:|
-| 50 yards | 2500 sqare yards (0.52 acres) |
+|:-----------:|:---------------------------:|
+| 50 yards | 2500 sqare yards (0.52 acres)  |
 | 60 yards | 3600 square yards (0.74 acres) |
 | 70 yards | 4900 square yards (1.01 acres) |
 | 80 yards | 6400 square yards (1.32 acres) |
 | 90 yards | 8100 square yards (1.67 acres) |
 | 100 yards | 10,000 square yards (2.07 acres) |
-|--------|----------|
+|----------|--------------------------------|
 
 This table might be helpful, but it's missing a lot of information.  What if they want to know about a side length of 65 yards?  Or 200 yards?
 
