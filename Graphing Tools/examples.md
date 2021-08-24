@@ -164,7 +164,7 @@ To Do:
 ===
 
 - We obviously need a lot of content.
-- I'd like to have better interactivity.  In the first section of 1324, I have examples like the following, but the `<details>` element isn't very flexible.  We'd need to write our own (maybe with jquery widgets?) to improve things...
+- I'd like to have better interactivity.  In the first section of 1324, I have examples like the following, but the `<details>` element isn't very flexible.  We'd need to write our own (maybe with [jquery widgets](https://jqueryui.com/accordion/#collapsible)?) to improve things...
 
 ``` html
 #### Practice: Is it a function?
