@@ -24,7 +24,7 @@ Suppose a farmer wants to build a square pen.  They're interested in knowing how
 
 This table might be helpful, but it's missing a lot of information.  What if they want to know about a side length of 65 yards?  Or 200 yards?
 
-Instead of working with tables like this, it's much more efficient to use an algebraic expression to represent the relationship between the input and the output.  If we make a square pen whose sides are $$x$$ yards long, then the area of the pen will be $$x*x = x^2$$ square yards (hence the name of the expression: "$$x$$ squared").
+Instead of working with tables like this, it's much more efficient to use an algebraic expression to represent the *relationship* between the input and the output.  If we make a square pen whose sides are $$x$$ yards long, then the area of the pen will be $$x*x = x^2$$ square yards (hence the name of the expression: "$$x$$ squared").
 
 To represent this relationship compactly, we can write something like:
 

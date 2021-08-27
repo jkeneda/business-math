@@ -8,8 +8,13 @@ Probability Distributions
 
 If we're playing a game with dice, it's easy to understand what to expect from the roll of a single die - it'll roll a 1, 2, 3, 4, 5, or 6, and all of those have an equal chance of happening.  But to understand more complicated situations, we'll need more complicated models.  The math used to model *randomness* or *uncertainty* is called Probability Theory.
 
+When working with randomness, there are multiple possible outcomes, each with their own probability of occurring.  To represent these outcomes and their probabilities, we use a *probability distribution*.
+
+probability distribution
+: A **probability distribution** (for a given experiment) is a table or graph that relates *all possible outcomes* and *their probabilities of occurring*.
+
 #### Example 1 
-In the game of Yahtzee, you roll 5 dice and try to achieve certain outcomes from your 5 resulting numbers (like "4 of a kind" or "Straight").  One of the outcome categories is "Chance", where your score is simply the total that you roll on all 5 dice.  Here's the distribution of the possible scores for the "Chance" category - and how likely they are.
+In the game of Yahtzee, you roll 5 dice.  In the "Chance" category, your score is simply the *total* that you roll with all 5 dice.  Here's the distribution of the possible scores for the "Chance" category - and how likely they are.  In other words, the graph below is the *probability distribution* of the scores you can get.
 
 <div>
     <canvas id="myChart"></canvas>
@@ -26,7 +31,7 @@ In the game of Yahtzee, you roll 5 dice and try to achieve certain outcomes from
     <p id="log">
     </p>
     <p>
-        Click the roll button to sample (i.e. "try the experiment once") from the distribution.  You can change the distribution (e.g. 2d6 means "roll two 6-sided dice", 10d10 means "roll ten 10-sided dice").  Your roll will be displayed above.
+        Click the roll button to *sample* (i.e. "try the experiment once") from the distribution.  You can change the distribution (e.g. 2d6 means "roll two 6-sided dice", 10d10 means "roll ten 10-sided dice").  Your roll will be displayed above.
     </p>
 </div>
 
