@@ -49,7 +49,7 @@ Lastly, desmos embedding seems to work just fine, and it still supports desmos's
 
 [Return to Previous Section](1-1-b-function-definitions.html)
 
-[Continue to Next Section](1-3-quadratic-functions.html)
+[Continue to Next Section](1-2-linear-functions.html)
 
 [Return to Table of Contents](00-index.html)
 

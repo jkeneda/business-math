@@ -15,8 +15,10 @@ Welcome to Business Algebra!
         - [Relations and Functions](1-1-a-relations-and-functions.html)
 
         - [Functions Defined by Algebraic Expressions](1-1-b-function-definitions.html)
+
+        - [Graphs of Functions](1-1-c-graphs-of-functions.html)
         
-    2. [Graphs of Functions](1-2-graphs-of-functions.html)
+    2. [Linear Functions](1-2-linear-functions.html)
 
     3. [Quadratic Functions](1-3-quadratic-functions.html)
 
