@@ -59,5 +59,5 @@ Lastly, desmos embedding seems to work just fine, and it still supports desmos's
 <script src="../Graphing Tools/chartjs-plugin-functions.js">
 </script>
 
-<script src="1-2-graphs-of-functions.js">// Creates local chart and handles events
+<script src="1-1-c-graphs-of-functions.js">// Creates local chart and handles events
 </script>
