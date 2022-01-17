@@ -10,7 +10,7 @@ Coming soon!
 
 ---
 
-[Return to Previous Section](1-2-graphs-of-functions.html)
+[Return to Previous Section](1-2-linear-functions.html)
 
 [Continue to Next Section](1-4-polynomial-functions.html)
 

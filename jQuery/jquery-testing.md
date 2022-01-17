@@ -96,7 +96,7 @@ description: Interactivity for questions
 the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.
 </p>
 
-Colors: Text is #606c71
+Old theme info (may have changed): Colors: Text is #606c71
 Headers are #159957 (green)
 #155997 (blue) in between 157779  
 #157977 (neutral)

@@ -7,7 +7,7 @@ Hello!
 ===
 
 #### For Students
-Are you looking for [Math 1324](1324/00-index.html) (business algebra) or [Math 1325](1325/00-index.html) (business calculus)?
+Are you looking for [Math 1324](1324/00-index.html) (business algebra) or [Math 1325](1325/00-index.html) (business calculus)?  Or do you want to check out an example from [Statistics](Stats/central-limit-theorem.html)?
 
 #### For Collaborators
-Want to contribute to the blog?  Here's a [syntax guide](Graphing Tools/examples.html).
+Want to contribute to the blog?  Here's a [syntax guide](Graphing Tools/examples.html).  You can also check out the [jQuery possibilities](jQuery/jquery-testing.html).

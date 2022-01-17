@@ -24,7 +24,9 @@ People and their pets:
 | Jill  | Jack |
 |       | Lola |
 |       | Stevie |
+|-------+------|
 | Josh | Curie |
+|======+=======|
 | Kenzie | Ellie |
 |       | Josie |
 |       | Lux |

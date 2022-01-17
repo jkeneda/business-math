@@ -23,6 +23,15 @@ This is a **really** good example.
 - if I want
 
 Or link to [google](https://www.google.com/).
+
+*Small scale* auto-numbering is enabled.
+1. One
+1. Two
+1. Three
+
+Also unordered lists with checkboxes:
+- [ ] Unchecked
+- [x] Checked
 ```
 #### Example 1
 This is a **really** good example.
@@ -31,6 +40,15 @@ This is a **really** good example.
 - if I want
 
 Or link to [google](https://www.google.com/).
+
+*Small scale* auto-numbering is enabled.
+1. One
+1. Two
+1. Three
+
+Also unordered lists with checkboxes:
+- [ ] Unchecked
+- [x] Checked
 
 ---
 
@@ -80,6 +98,8 @@ To add a desmos plot, just copy and paste the code in this box into your .md fil
 </iframe>
 
 Note: I noticed that if you interact with a desmos plot and then try to leave the page, it'll ask you to confirm that you want to leave (because desmos is worried that you haven't saved the graph or something).  I think we can disable the confirmation message, but we'll have to mess with it a bit.[^confirm]
+
+One way to get around the "are you sure you want to leave" message is to use the [desmos api](https://www.desmos.com/api/v1.6/docs/index.html) to embed rather than using a link to a saved graph.  That's better but also more complicated code-wise.
 
 ---
 
@@ -145,7 +165,7 @@ Graph of $$y = x$$, $$y = \frac{1}{20} e^x$$, and $$y = \sin{x}$$
 
 ### Chart.js
 
-For more interactive or animated charts, we can use Chart.js.  These plots are nice for discrete data sets. When plotting functions, users can hover over the specified data points to get more information, but the equation labels aren't especially pretty.  Chart.js is something I used in [probability distributions](../1324/5-1-probability-distributions.html) to get a bar graph representing the distribution of certain dice rolls.  It's more flexible than desmos, but it's also much harder to use.
+For more interactive or animated charts, we can use Chart.js.  These plots are nice. especially for discrete data sets. When plotting functions, users can hover over the specified data points to get more information, but the equation labels aren't especially pretty.  Chart.js is something I used in [probability distributions](../1324/5-1-probability-distributions.html) and (my favorite) the [central limit theorem](../Stats/central-limit-theorem.html) example to get a bar graph representing the distribution of certain dice rolls.  This option is more flexible than desmos, but it's also much harder to configure/use.
 
 About the code: the html here just puts the space for the graph on the page - it's the javascript in examples.js that actually makes the data and builds the plot.  So you'll have to check out the corresponding examples.js file or check out the [Chart.js documentation](https://www.chartjs.org/) for more info on making these plots.
 
@@ -162,11 +182,10 @@ About the code: the html here just puts the space for the graph on the page - it
 
 ---
 
-To Do:
-===
+# To Do: {#to-do}
 
 - We obviously need a lot of content.
-- I'd like to have better interactivity.  In the first section of 1324, I have examples like the following, but the `<details>` element isn't very flexible.  We'd need to write our own (maybe with [jquery widgets](https://jqueryui.com/accordion/#collapsible)?) to improve things...
+- I'd like to have better interactivity.  In the first section of 1324, I have examples like the following, but the `<details>` element isn't very flexible.  We'd need to write our own (maybe with [jquery widgets](https://jqueryui.com/accordion/#collapsible)?) to improve things...  You can play with some of the available widgets using the current theme [here](../jQuery/jquery-testing.html), but we'll need to tweak the theme to get things to look more navigable.
 
 ``` html
 #### Practice: Is it a function?

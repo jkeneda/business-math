@@ -87,10 +87,10 @@ normal distribution
 
 [Return to Table of Contents](00-index.html)
 
-<script src="../../Graphing Tools/chart.js">
+<script src="../Graphing Tools/chart.js">
 </script>
 
-<script src="../../Graphing Tools/distributions.mjs"> // Functions for handling dice distributions
+<script src="../Graphing Tools/distributions.mjs"> // Functions for handling dice distributions
 </script>
 
 <script src="central-limit-theorem.js">// Creates local chart and handles events
