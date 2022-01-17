@@ -25,4 +25,4 @@ Unless you're trying to contribute your own notes or code to the project, you pr
 1. Fix desmos unloading issue (see footnotes of examples page)
 
 #### Notable Dependencies
-This project uses [Chart.js](https://www.chartjs.org/) and [TikZJax](https://github.com/kisonecat/tikzjax) for its graphing, and it uses the [Cayman](https://github.com/pages-themes/cayman) Jekyll theme for GitHub Pages.  It'll probably start using jquery for some better interactivity soon.
+This project uses [Chart.js](https://www.chartjs.org/) and [TikZJax](https://github.com/kisonecat/tikzjax) for its graphing, and it uses the [Cayman](https://github.com/pages-themes/cayman) Jekyll theme for GitHub Pages.  It uses jQuery a little, and I'm hoping to expand on that.  Thanks to http://favicon.htmlkit.com/ for the page icon.
