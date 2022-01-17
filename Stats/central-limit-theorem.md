@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Probability Distributions and the Central Limit Theorem
+title: Statistics (MATH 1342)
+description: Probability Distributions and the Central Limit Theorem
 ---
 
 Probability Distributions

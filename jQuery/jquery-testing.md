@@ -72,10 +72,12 @@ description: Interactivity for questions
 		<li><a href="#tabs-2">Second</a></li>
 		<li><a href="#tabs-3">Third</a></li>
 	</ul>
-	<div id="tabs-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+	<span id="tabs-1">Testing \(x\) math stuff...</span>
 	<div id="tabs-2">Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.</div>
 	<div id="tabs-3">Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.</div>
 </div>
+
+<span>Testing $$x$$ math stuff.</span>
 
 <h2 class="demoHeaders">Dialog</h2>
 <p>
@@ -86,7 +88,7 @@ description: Interactivity for questions
 
 <!-- ui-dialog -->
 <div id="dialog" title="Dialog Title">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	<p>Testing \(y=x^2\) math stuff.</p>
 </div>
 
 <!-- Tooltip -->
@@ -95,11 +97,6 @@ description: Interactivity for questions
 	<a href="#" title="That&apos;s what this widget is">Tooltips</a> can be attached to any element. When you hover
 the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.
 </p>
-
-Old theme info (may have changed): Colors: Text is #606c71
-Headers are #159957 (green)
-#155997 (blue) in between 157779  
-#157977 (neutral)
 
 <script src="jquery-ui/external/jquery/jquery.js"></script>
 <script src="jquery-ui/jquery-ui.js"></script>

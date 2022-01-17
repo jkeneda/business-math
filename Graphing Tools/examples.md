@@ -10,13 +10,15 @@ code to put in the .md file here
 ```
 [the corresponding website result here].
 
-Basic Markdown
-===
+# Basic Markdown {#basic-markdown}
 
 Each page of this site comes from a .md file in the [GitHub repository](https://github.com/jkeneda/business-math).  For example, the .md file for this syntax example page is in the Graphing Tools folder.  We're using something called kramdown to convert .md (Markdown) files to the .html sites.  To start contributing to pages, check out this kramdown [cheat sheet](https://aoterodelaroza.github.io/devnotes/kramdown-cheatsheet/), which tells you what the syntax should look like in the .md file and what it will become when the site is built.[^kramdown]  The cheat sheet and the following examples might be sufficient to get started.
 
 ``` markdown
-#### Example 1
+# Section {#section-id}
+## Subsection {#subsection-id}
+### Topic {#topic-id}
+#### Example 1 {#example-id}
 This is a **really** good example.
 - I can make
 - a grocery list
@@ -32,8 +34,14 @@ Or link to [google](https://www.google.com/).
 Also unordered lists with checkboxes:
 - [ ] Unchecked
 - [x] Checked
+
+Note that the {#section-id} portion of the headers are optional,
+but they allow you to link to specific parts of the page via their id, like [this](#basic-markdown).
 ```
-#### Example 1
+# Section {#section-id}
+## Subsection {#subsection-id}
+### Topic {#topic-id}
+#### Example 1 {#example-id}
 This is a **really** good example.
 - I can make
 - a grocery list
@@ -49,13 +57,15 @@ Or link to [google](https://www.google.com/).
 Also unordered lists with checkboxes:
 - [ ] Unchecked
 - [x] Checked
+
+Note that the {#section-id} portion of the headers are optional, but they allow you to link to specific parts of the page via their id, like [this](#basic-markdown).
 
 ---
 
 LaTeX
 ===
 
-LaTeX is also supported in the .md files by surrounding your TeX with double dollar signs.  You can put a line break before and after the \$\$ to get LaTeX's display math mode.  Otherwise, you get inline math.
+LaTeX is also supported in the .md files by surrounding your TeX with double dollar signs.  You can put a line break before and after the \$\$ to get LaTeX's display math mode.  Otherwise, you get inline math.[^inline]
 
 ``` latex
 Let $$f(x) = e^x - \log{x} + \sin (x^3)$$.
@@ -81,8 +91,6 @@ Pretty great, huh?
 
 The 3 types of graphing utilities that are supported ([desmos](https://www.desmos.com), [TikZJax](https://github.com/kisonecat/tikzjax), and [Chart.js](https://www.chartjs.org/)) are ordered from least- to most-complicated to include in a page.
 
----
-
 ### desmos
 
 Thankfully, [desmos](https://www.desmos.com) embedding is the easiest to use.  Press the play button next to the $$a = 1.27$$ below to see desmos's animation in action.
@@ -100,8 +108,6 @@ To add a desmos plot, just copy and paste the code in this box into your .md fil
 Note: I noticed that if you interact with a desmos plot and then try to leave the page, it'll ask you to confirm that you want to leave (because desmos is worried that you haven't saved the graph or something).  I think we can disable the confirmation message, but we'll have to mess with it a bit.[^confirm]
 
 One way to get around the "are you sure you want to leave" message is to use the [desmos api](https://www.desmos.com/api/v1.6/docs/index.html) to embed rather than using a link to a saved graph.  That's better but also more complicated code-wise.
-
----
 
 ### TikZJax
 
@@ -161,8 +167,6 @@ Graph of $$y = x$$, $$y = \frac{1}{20} e^x$$, and $$y = \sin{x}$$
 </script>
 Graph of $$y = x$$, $$y = \frac{1}{20} e^x$$, and $$y = \sin{x}$$
 
----
-
 ### Chart.js
 
 For more interactive or animated charts, we can use Chart.js.  These plots are nice. especially for discrete data sets. When plotting functions, users can hover over the specified data points to get more information, but the equation labels aren't especially pretty.  Chart.js is something I used in [probability distributions](../1324/5-1-probability-distributions.html) and (my favorite) the [central limit theorem](../Stats/central-limit-theorem.html) example to get a bar graph representing the distribution of certain dice rolls.  This option is more flexible than desmos, but it's also much harder to configure/use.
@@ -217,6 +221,8 @@ Yes, each input corresponds to just a single output.
 [Return to main page](../index.html)
 
 [^kramdown]: You can also check out the [kramdown documentation](https://kramdown.gettalong.org/syntax.html), but I wouldn't recommend it unless you're looking for something specific.
+
+[^inline]: When using jQuery, I've had some math render in display mode rather than inline.  You can force inline display by using \\( x <span>\\)</span> instead of \$\$x<span>\$\$</span>.
 
 [^confirm]: I tried running the following code once, but that doesn't quite work, because it's only loaded when the page loads and then desmos overwrites it.  But we could maybe run the following javascript on a loop, I think: `window.onbeforeunload = null;`  Might need to do the same for `window.close`.
 
