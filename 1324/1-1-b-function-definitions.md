@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [1324 - business algebra]
+title: 1324 - business algebra
 ---
 
 Functions Defined by Algebraic Expressions

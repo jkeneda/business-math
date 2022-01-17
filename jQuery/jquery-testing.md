@@ -1,7 +1,7 @@
 ---
 layout: default
-title: [jQuery Testing]
-description: [Interactivity for questions]
+title: jQuery Testing
+description: Interactivity for questions
 ---
 
 <link href="jquery-ui/jquery-ui.css" rel="stylesheet">

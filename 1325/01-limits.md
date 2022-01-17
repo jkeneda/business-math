@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [1325 - business calculus]
+title: 1325 - business calculus
 ---
 
 Limits

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [Probability Distributions and the Central Limit Theorem]
+title: Probability Distributions and the Central Limit Theorem
 ---
 
 Probability Distributions

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [1324 - business algebra]
+title: 1324 - business algebra
 ---
 
 Future Value of an Annuity

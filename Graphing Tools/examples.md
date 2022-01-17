@@ -1,7 +1,7 @@
 ---
 layout: default
-title: [syntax for making pages]
-description: [basically just for Jason and Morgan]
+title: syntax for making pages
+description: basically just for Jason and Morgan
 ---
 
 In order to easily see the syntax differences, the general format for this page will be

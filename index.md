@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [business-math]
+title: business-math
 ---
 
 Hello!
