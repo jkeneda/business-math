@@ -48,7 +48,7 @@ So the functions $$A$$ and $$A^*$$ will take any side length $$x$$ (in yards) an
 
 To elaborate on the notation in the last example, let's look at the ingredients that we'll be using to define functions by formulas/equations.
 
-#### Example 2
+#### Example 2 {#example-2}
 
 Suppose you're running a small candlemaking business.  For each online order, you ship the candles using a Small Flat Rate Box from the USPS.  Each box costs $8.25.
 

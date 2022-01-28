@@ -6,44 +6,29 @@ title: 1324 - business algebra
 Graphs of Functions
 ===
 
-This page hasn't fully been built yet.  It's just a demo of the different graphing/display techniques we can use on the site.  Note that all of this is happening in the students' browser - they don't have to download any software or sign in.  It's just a free blog format.
+In this section, we'll see how to graphically represent functions.
 
-For interactive or animated graphs, we can use Chart.js.  These graphs are nice because users can hover over the data points to get more information, but the equation labels aren't especially pretty.
+## Graphs of Discrete Relations {#discrete-graphs}
 
-<div>
-    <canvas id="myChart"></canvas>
+We've defined a relation as a set of ordered pairs $$(x, y)$$.  For example, we can define a relation $$r = \{(1,3), (2, 1), (3, 5)\}$$.  When the inputs and outputs are real numbers (like in $$r$$), we can represent the same relation using a graph in the $$xy$$-plane.
+
+<div id="calculator1" style="width: 60%; height: 300px; margin-left: auto; margin-right: auto;">
 </div>
 
-Or we can do clean, general graphs with TikZJax:
+This graph depicts the relation $$\{(1,3), (2, 1), (3, 5)\}$$.  You can click on the points to see their coordinates.  Consider the point $$(x, y) = (2, 1)$$, which is pictured in blue.  You can recover its $$x$$-value by squashing it onto the horizontal ($$x$$-)axis.  You can recover its $$y$$-value by squashing it onto the vertical ($$y$$-)axis.
 
-<script type="text/tikz">
-  \begin{tikzpicture}
-    \draw (0,0) circle (0.5in);
-    \draw [help lines] (-2,0) grid (2,4); 
-    \draw [->] (-2.2,0) -- (2.2,0); 
-    \draw [->] (0,0) -- (0,4.2); 
-    \draw [green, thick, domain=-2:2] plot (\x, {4-\x*\x}); 
-    \draw [domain=-2:2, samples=50] plot (\x, {1+cos(pi*\x r)});
-  \end{tikzpicture}
-</script>
+> Stop here and investigate the graph until you're comfortable translating between a data point $$(x, y)$$ and its corresponding point on the $$xy$$-plane.
 
-We can label the functions with TikZ, although the labels get messy sometimes.
+## Graphs of Functions Defined by Equations {#equation-graphs}
 
-<script type="text/tikz">
-  \begin{tikzpicture}[domain=0:4] 
-    \draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
-    \draw[->] (-0.2,0) -- (4.2,0) node[right] {$x$}; 
-    \draw[->] (0,-1.2) -- (0,4.2) node[above] {$y$};
-    \draw[color=red]    plot (\x,\x)             node[right] {$f\,\,(x)$}; 
-    \draw[color=blue]   plot (\x,{sin(\x r)})    node[right] {$h\,\,(x)$}; 
-    \draw[color=orange] plot (\x,{0.05*exp(\x)}) node[right] {$g\,\,(x)$};
-  \end{tikzpicture}
-</script>
-Graph of $$y = x$$, $$y = \frac{1}{20} e^x$$, and $$y = \sin{x}$$ (above)
+We can also graph functions that are defined by equations.  Recall that an equation like $$y = x^2$$ is interpreted as a function by thinking of $$x$$ as the input and $$y$$ as the corresponding output.  The graph of this function consists of all $$(x, y)$$ that satisfy the equation.
 
-Lastly, desmos embedding seems to work just fine, and it still supports desmos's animation feature:
+<div id="calculator2" style="width: 60%; height: 300px; margin-left: auto; margin-right: auto;">
+</div>
 
-<iframe src="https://www.desmos.com/calculator/fs3lx8gptb" style="min-height:300px" width="100%"></iframe>
+The graph above is a graph of $$y = x^2$$.  It includes points like $$(-1, 1)$$ and $$(2, 4)$$, because those are $$(x, y)$$ pairs that satisfy the equation.  
+
+We could generate more points like this by choosing an arbitrary $$x$$-value and then plugging it into the equation to find its corresponding $$y$$.  For example, if you plug in $$x = 3$$, you get $$y = 3^2 = 9$$, so the point $$(3, 9)$$ would also be part of this graph.
 
 ---
 
@@ -53,11 +38,7 @@ Lastly, desmos embedding seems to work just fine, and it still supports desmos's
 
 [Return to Table of Contents](00-index.html)
 
-<script src="../Graphing Tools/chart.js">
-</script>
+<script src="https://www.desmos.com/api/v1.6/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 
-<script src="../Graphing Tools/chartjs-plugin-functions.js">
-</script>
-
-<script src="1-1-c-graphs-of-functions.js">// Creates local chart and handles events
+<script src="1-1-c-graphs-of-functions.js">// Populates Desmos graphs
 </script>

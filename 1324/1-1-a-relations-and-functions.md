@@ -15,6 +15,7 @@ It's very important in mathematics to have clear, unambiguous definitions for ou
 relation
 : (informal) A **relation** has a set of inputs and a set of outputs.  For each input, the relation returns *at least one* output.
 
+
 #### Example 1
 People and their pets:
 
