@@ -55,7 +55,7 @@ The shape of this probability distribution might seem familiar to you.  Let's ex
 
 ## The Central Limit Theorem
 
-If we only roll a single die, then the chart looks pretty boring.  All of the outcomes are equally likely.  Below is its uniform probability distribution (in graph form).  You can see that each number has a $$16.\bar{6}\%$$ chance of being rolled.
+If we only roll a single die, then the chart looks pretty boring.  All of the outcomes are equally likely.  Below is its uniform probability distribution (in graph form).  You can see that each number has a $$\frac{1}{6} = 16.\bar{6}\%$$ chance of being rolled.
 
 <div>
     <canvas id="myChart"/>
