@@ -18,4 +18,4 @@ $$\lim_{x\rightarrow 3} x^2 = 9.$$
 
 [Continue to Next Section]
 
-[Return to Table of Contents](00-index.html)
+[Return to Table of Contents](index.html)

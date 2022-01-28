@@ -42,4 +42,4 @@ slope-intercept form
 
 [Continue to Next Section](1-3-quadratic-functions.html)
 
-[Return to Table of Contents](00-index.html)
+[Return to Table of Contents](index.html)

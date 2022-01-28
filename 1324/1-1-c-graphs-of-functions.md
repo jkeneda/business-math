@@ -36,7 +36,7 @@ We could generate more points like this by choosing an arbitrary $$x$$-value and
 
 [Continue to Next Section](1-2-linear-functions.html)
 
-[Return to Table of Contents](00-index.html)
+[Return to Table of Contents](index.html)
 
 <script src="https://www.desmos.com/api/v1.6/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 

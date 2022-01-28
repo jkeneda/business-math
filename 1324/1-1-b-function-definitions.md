@@ -91,4 +91,4 @@ When you see something like $$h(x) = -20x + 5$$, you should think "$$h$$ is a fu
 
 [Continue to Next Section](1-1-c-graphs-of-functions.html)
 
-[Return to Table of Contents](00-index.html)
+[Return to Table of Contents](index.html)

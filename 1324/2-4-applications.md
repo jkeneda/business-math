@@ -14,4 +14,4 @@ Coming soon!
 
 [Continue to Next Section](3-1-simple-interest.html)
 
-[Return to Table of Contents](00-index.html)
+[Return to Table of Contents](index.html)
