@@ -159,4 +159,3 @@ One goal: make them more comfortable with engaging with application problems and
 *Alma gets there 5-15 mins early as her "own warm-up act".*  Found a huge jump in not only math but english proficiency.
 
 ## For me: maybe focus on zoom out/zoom in idea for my redesign
-
