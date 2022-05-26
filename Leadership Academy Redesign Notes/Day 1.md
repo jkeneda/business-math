@@ -1,3 +1,8 @@
+---
+layout: default
+title: Day 1
+---
+
 # Intro
 There's a [Blackboard](https://southplainscollege.blackboard.com/) course associated with this.
 

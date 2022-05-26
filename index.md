@@ -11,3 +11,5 @@ Are you looking for [Math 1324](1324/index.html) (business algebra) or [Math 132
 
 #### For Collaborators
 Want to contribute to the blog?  Here's a [syntax guide](Graphing Tools/examples.html).  You can also check out the [jQuery possibilities](jQuery/jquery-testing.html).
+
+Temporary Link: [Leadership Academy Stuff](Leadership Academy Redesign Notes/)
